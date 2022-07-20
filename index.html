@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width,user-scalable=no">
+	<!--  FONT AWESOME -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+		integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<!-- SCRIPTS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r83/three.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
+	<!-- TITULO -->
+	<title>Torre de Blocos - Pedro Tonidandel</title>
+	<!-- CSS -->
+	<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+	<div id="container">
+		<div id="jogo"></div>
+		<div id="placar">0</div>
+		<div id="instructions">Clique ou aperte BARRA DE ESPAÇO para empilhar os blocos.</div>
+		<div class="game-over">
+			<h2>Fim de Jogo.</h2>
+			<p>Você tentou, <strong>uai.</strong></br>Clique para recomeçar.</p>
+			<p><i class="fas fa-code"></i> com <i class="fas fa-heart"></i> por <a
+				style="text-decoration:none"><strong>Pedro</strong></a></p>
+		</div>
+		<div class="game-ready">
+			<div id="start-button">Começar</div>
+			<div>
+			</div>
+		</div>
+	</div>
+
+	<script src="main.js" async></script>
+
+</body>
+</html>
